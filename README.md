@@ -1,6 +1,6 @@
-# BOTANIC CHEMISTRY
+# N x S x E
 
-**Nature × Science × Everyday.**
+**natur x Science x Everyday**
 
 [English](README.md) · [فارسی](README.fa.md)
 
@@ -28,7 +28,8 @@ npm run check
 ## Included
 
 - Full-width editorial campaign and a restrained molecular identity.
-- Ten sock designs based on the supplied Botanic Chemistry collection board.
+- Ten sock designs, with a new molecular sunrise emblem on the featured Minimal Icon.
+- Compact N x S x E branding with the exact tagline: natur x Science x Everyday.
 - Quick Order with style selection, required size selection, quantity and live price.
 - Product details, size and care guides, collection filters, search and wishlist.
 - Shopping bag with quantity updates, removal, shipping calculation and order review.
@@ -60,7 +61,7 @@ The photography and collection board are concept assets. Product appearance, fab
 
 ## Validation
 
-The storefront was inspected at 1440×900 and 390×844. Manual browser checks covered style switching, required-size errors, quantity changes, shipping thresholds, cart persistence, order review, search results and empty search, wishlist filtering, mobile navigation, nested dialogs and Escape dismissal. JavaScript syntax and local asset references were checked separately.
+The previous storefront version was inspected at 1440×900 and 390×844. Manual browser checks covered style switching, required-size errors, quantity changes, shipping thresholds, cart persistence, order review, search results and empty search, wishlist filtering, mobile navigation, nested dialogs and Escape dismissal. JavaScript syntax and local asset references were checked separately. The N x S x E branding update passed syntax, exact brand/tagline, English-only UI and asset-reference checks; its generated images were visually inspected. A fresh browser preview was blocked by the browser tool security policy, so the updated layout has not been visually revalidated.
 
 ---
 
@@ -68,7 +69,7 @@ The storefront was inspected at 1440×900 and 390×844. Manual browser checks co
 
 ## راهنمای فارسی
 
-این پروژه یک فروشگاه مفهومی جوراب با هویت بصری **Botanic Chemistry** است. رابط وب‌سایت انگلیسی است و مستندات مخزن به دو زبان انگلیسی و فارسی ارائه می‌شوند.
+این پروژه یک فروشگاه مفهومی جوراب با هویت بصری **N x S x E** است. رابط وب‌سایت انگلیسی است و مستندات مخزن به دو زبان انگلیسی و فارسی ارائه می‌شوند.
 
 برای راه‌اندازی محلی، توضیح قابلیت‌ها و محدودیت‌های نسخه نمایشی، [راهنمای کامل فارسی](README.fa.md) را بخوانید.
 
