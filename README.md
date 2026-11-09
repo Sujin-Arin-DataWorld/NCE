@@ -1,6 +1,8 @@
-# N x S x E
+# NSE STUDIO
 
-**natur x Science x Everyday**
+**Nature + Science + Everyday**
+
+A concept storefront for NSE STUDIO. The first collection is crew socks. The 2026 Edit adds five individual design-study pages for underwear and socks; boxer briefs and tank tops also appear as generated visual concepts. These studies are not purchasable products.
 
 [English](README.md) · [فارسی](README.fa.md)
 
@@ -28,8 +30,10 @@ npm run check
 ## Included
 
 - Full-width editorial campaign and a restrained molecular identity.
+- A 2026 Edit on the homepage, with individual detail pages for Flex Micro Brief, Relaxed Boxer, Dawn Rib Crew, Motion Quarter and Low Profile No-show. Each page presents its own image, silhouette, palette and proposed material direction, with clear concept status.
 - Ten sock designs, with a new molecular sunrise emblem on the featured Minimal Icon.
-- Compact N x S x E branding with the exact tagline: natur x Science x Everyday.
+- Generated six-color boxer brief and four-color tank top lineups, presented as future product concepts. The boxer waistband pairs one wordmark with one molecular sunrise emblem; tank back print and tag-free inner neck placement are shown in detail mockups.
+- NSE STUDIO branding with the Nature + Science + Everyday positioning and a three-part essentials lineup.
 - Quick Order with style selection, required size selection, quantity and live price.
 - Product details, size and care guides, collection filters, search and wishlist.
 - Shopping bag with quantity updates, removal, shipping calculation and order review.
@@ -42,8 +46,10 @@ npm run check
 dist/
   index.html            Page markup and dialogs
   styles.css            Responsive design and component states
+  concepts.css          2026 Edit and concept detail page styles
   app.js                Catalog and shopping interactions
   assets/               Optimized product and campaign images
+  products/             Five static design-study detail pages
 .openai/hosting.json    Existing private Sites project configuration
 docs/DESIGN.md          Design decisions and asset provenance
 README.fa.md           Persian documentation
@@ -61,7 +67,7 @@ The photography and collection board are concept assets. Product appearance, fab
 
 ## Validation
 
-The previous storefront version was inspected at 1440×900 and 390×844. Manual browser checks covered style switching, required-size errors, quantity changes, shipping thresholds, cart persistence, order review, search results and empty search, wishlist filtering, mobile navigation, nested dialogs and Escape dismissal. JavaScript syntax and local asset references were checked separately. The N x S x E branding update passed syntax, exact brand/tagline, English-only UI and asset-reference checks; its generated images were visually inspected. A fresh browser preview was blocked by the browser tool security policy, so the updated layout has not been visually revalidated.
+The 2026 Edit homepage and all five detail pages were rendered in Chromium at 1440×900 and 390×844. All detail routes returned HTTP 200, all five product images loaded, and neither viewport showed document-level horizontal overflow or page errors. The original sock shopping flow was previously checked for style switching, required-size errors, bag updates, order review, search, wishlist and mobile navigation. `npm run check` validates JavaScript syntax.
 
 ---
 
@@ -69,7 +75,7 @@ The previous storefront version was inspected at 1440×900 and 390×844. Manual 
 
 ## راهنمای فارسی
 
-این پروژه یک فروشگاه مفهومی جوراب با هویت بصری **N x S x E** است. رابط وب‌سایت انگلیسی است و مستندات مخزن به دو زبان انگلیسی و فارسی ارائه می‌شوند.
+این پروژه یک فروشگاه مفهومی جوراب با هویت بصری **NSE STUDIO** است. رابط وب‌سایت انگلیسی است و مستندات مخزن به دو زبان انگلیسی و فارسی ارائه می‌شوند.
 
 برای راه‌اندازی محلی، توضیح قابلیت‌ها و محدودیت‌های نسخه نمایشی، [راهنمای کامل فارسی](README.fa.md) را بخوانید.
 
